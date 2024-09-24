@@ -291,6 +291,7 @@
 (use-package smex)
 
 (use-package undo-tree
+  :disabled
   :diminish undo-tree-mode
   :config (global-undo-tree-mode))
 
@@ -323,7 +324,7 @@
   ("s-=" . org-superscript-region-or-point)
   ("s-i" . org-italics-region-or-point)
   ("s-b" . org-bold-region-or-point)
-  ("s-v" . org-verbatim-region-or-point)
+  ;; ("s-v" . org-verbatim-region-or-point)
   ("s-c" . org-code-region-or-point)
   ("s-u" . org-underline-region-or-point)
   ("s-+" . org-strikethrough-region-or-point)
