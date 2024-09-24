@@ -11,6 +11,28 @@ See the [[./scimax.org][manual]] for more details.
 <a href="https://gitter.im/scimax-users"><img src="https://badges.gitter.im/gitterHQ/gitter.png"></a>
 #+END_HTML
 
+* Fork & Develop
+
+I'm work on the branch *local-init*, some hints here:
+
+
+#+BEGIN_SRC sh
+# regularly fetch the latest changes from the upstream
+git fetch upstream
+
+# merge the changes from upsream master
+git checkout local-init
+git merge upstream/master
+
+git add <conflict-files>
+git comiit
+#+END_SRC
+
+Only disable certain packages or inconvenient kbds here.
+
+The other new packages, configurations and kbds will be maintained in the additional repository, ensuring convenient migration and experimentation with new distributions.
+
+
 * NEWS
 ** [2023-05-30 Tue] scimax 3.0
 
