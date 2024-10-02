@@ -159,6 +159,7 @@
 
 ;; google-this
 (use-package google-this
+  :disabled
   :config
   (google-this-mode 1))
 
