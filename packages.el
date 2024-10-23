@@ -326,7 +326,7 @@
   ("s-i" . org-italics-region-or-point)
   ("s-b" . org-bold-region-or-point)
   ;; ("s-v" . org-verbatim-region-or-point)
-  ("s-c" . org-code-region-or-point)
+  ;; ("s-c" . org-code-region-or-point)
   ("s-u" . org-underline-region-or-point)
   ("s-+" . org-strikethrough-region-or-point)
   ("s-4" . org-latex-math-region-or-point)
